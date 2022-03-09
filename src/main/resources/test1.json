@@ -1,0 +1,163 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://rieckpil.de/#website",
+      "url": "https://rieckpil.de/",
+      "name": "rieckpil",
+      "description": "Testing Java Applications Made Simple",
+      "publisher": {
+        "@id": "https://rieckpil.de/#/schema/person/378d927b1d5b35bc26f65143a3c244f4"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://rieckpil.de/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://rieckpil.de/wp-content/uploads/2020/11/difference-between-mock-and-mockbean-testing-spring-boot-applications.png",
+      "contentUrl": "https://rieckpil.de/wp-content/uploads/2020/11/difference-between-mock-and-mockbean-testing-spring-boot-applications.png",
+      "width": 1200,
+      "height": 700,
+      "caption": "Difference between @Mock and @MockBean when testing Spring Boot applications"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#webpage",
+      "url": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/",
+      "name": "@Mock vs. @MockBean When Testing Spring Boot Applications - rieckpil",
+      "isPartOf": {
+        "@id": "https://rieckpil.de/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#primaryimage"
+      },
+      "datePublished": "2020-11-10T07:51:06+00:00",
+      "dateModified": "2021-08-27T13:23:04+00:00",
+      "description": "Understand the difference between @Mock from Mockito and @MockBean from Spring when testing Spring Boot applications with JUnit 4 or JUnit 5.",
+      "breadcrumb": {
+        "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://rieckpil.de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Other",
+          "item": "https://rieckpil.de/category/other/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Testing Tutorials",
+          "item": "https://rieckpil.de/category/other/testing/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "@Mock vs. @MockBean When Testing Spring Boot Applications"
+        }
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#article",
+      "isPartOf": {
+        "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#webpage"
+      },
+      "author": {
+        "@id": "https://rieckpil.de/#/schema/person/378d927b1d5b35bc26f65143a3c244f4"
+      },
+      "headline": "@Mock vs. @MockBean When Testing Spring Boot Applications",
+      "datePublished": "2020-11-10T07:51:06+00:00",
+      "dateModified": "2021-08-27T13:23:04+00:00",
+      "mainEntityOfPage": {
+        "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#webpage"
+      },
+      "wordCount": 1107,
+      "commentCount": 1,
+      "publisher": {
+        "@id": "https://rieckpil.de/#/schema/person/378d927b1d5b35bc26f65143a3c244f4"
+      },
+      "image": {
+        "@id": "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#primaryimage"
+      },
+      "thumbnailUrl": "https://rieckpil.de/wp-content/uploads/2020/11/difference-between-mock-and-mockbean-testing-spring-boot-applications.png",
+      "keywords": [
+        "Mockito"
+      ],
+      "articleSection": [
+        "Spring Framework Tutorials",
+        "Testing Tutorials"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://rieckpil.de/difference-between-mock-and-mockbean-spring-boot-applications/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Person",
+        "Organization"
+      ],
+      "@id": "https://rieckpil.de/#/schema/person/378d927b1d5b35bc26f65143a3c244f4",
+      "name": "Philip Riecks",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://rieckpil.de/#personlogo",
+        "inLanguage": "en-US",
+        "url": "https://rieckpil.de/wp-content/uploads/2020/07/rieckpilParkBenchThumbnail.jpg",
+        "contentUrl": "https://rieckpil.de/wp-content/uploads/2020/07/rieckpilParkBenchThumbnail.jpg",
+        "width": 200,
+        "height": 257,
+        "caption": "Philip Riecks"
+      },
+      "logo": {
+        "@id": "https://rieckpil.de/#personlogo"
+      },
+      "description": "I’m Philip and working with Java since university. I’m curious about the latest trends within the Java ecosystem but also highly focused on productivity &amp; simplicity with proven Java technologies. With my content, I provide tips &amp; tricks, recipes, and solutions to accelerate your testing success.",
+      "sameAs": [
+        "https://rieckpil.de",
+        "rieckpil",
+        "https://de.linkedin.com/in/rieckpil",
+        "https://twitter.com/rieckpil",
+        "https://www.youtube.com/channel/UCEbZTcePN9QwMr1Lr1SED0Q"
+      ]
+    }
+  ]
+}

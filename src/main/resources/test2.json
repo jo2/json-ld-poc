@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Joydeep Deb",
+  "email": "mailto:joydeep@joydeepdeb.com",
+  "image": "https://www.joydeepdeb.com/images/joydeep-thumb.jpg",
+  "jobTitle": "Digital Marketing Manager",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bangalore",
+    "postalCode": "560001",
+    "addressRegion": "Karnataka",
+    "addressCountry": "India"
+  },
+  "url": "https://www.joydeepdeb.com/",
+  "sameAs": [
+    "https://www.facebook.com/JoydeepDeb",
+    "https://twitter.com/joydeep7",
+    "https://www.linkedin.com/in/joydeep"
+  ]
+}

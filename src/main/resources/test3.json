@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "JoydeepDeb",
+  "alternateName": "JoydeepDeb.com",
+  "url": "https://www.joydeepdeb.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.joydeepdeb.com/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
